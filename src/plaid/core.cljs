@@ -3,7 +3,6 @@
    [clojure.string :as string]
    [planck.core :refer [spit slurp line-seq]]
    [planck.io :as io]
-   [planck.http :as http]
    [planck.shell :as shell :refer [with-sh-dir]]))
 
 (def patches (line-seq (io/reader (io/resource "patches.txt"))))
