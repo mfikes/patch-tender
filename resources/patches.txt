@@ -18,7 +18,6 @@ https://dev.clojure.org/jira/secure/attachment/17153/CLJS-2301.patch
 https://dev.clojure.org/jira/secure/attachment/17195/CLJS-2319-Fix-cljs.core-mod-handling-of-floats_INLINED.patch
 https://dev.clojure.org/jira/secure/attachment/17313/CLJS-2341.patch
 https://dev.clojure.org/jira/secure/attachment/17318/CLJS-2346.patch
-https://dev.clojure.org/jira/secure/attachment/17377/const-ast-2.patch
 https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure.string-escape-constent-with-C.patch
 https://dev.clojure.org/jira/secure/attachment/17409/0001-CLJS-1631-Make-str-handle-js-symbols.patch
 https://dev.clojure.org/jira/secure/attachment/17430/CLJS-2383.patch
@@ -44,3 +43,7 @@ https://dev.clojure.org/jira/secure/attachment/17882/CLJS-2654.patch
 https://dev.clojure.org/jira/secure/attachment/17887/CLJS-2409-4.patch
 https://dev.clojure.org/jira/secure/attachment/17888/CLJS-2660.patch
 https://dev.clojure.org/jira/secure/attachment/17888/CLJS-2660.patch
+https://dev.clojure.org/jira/secure/attachment/17889/CLJS-1561-3.patch
+https://dev.clojure.org/jira/secure/attachment/17890/CLJS-2342-4.patch
+https://dev.clojure.org/jira/secure/attachment/17891/CLJS-2537-2.patch
+https://dev.clojure.org/jira/secure/attachment/17892/CLJS-2538-2.patch
