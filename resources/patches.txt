@@ -1,5 +1,3 @@
-https://dev.clojure.org/jira/secure/attachment/15320/cljs-1502.patch
-https://dev.clojure.org/jira/secure/attachment/15799/CLJS-1474.patch
 https://dev.clojure.org/jira/secure/attachment/15808/CLJS-1722.patch
 https://dev.clojure.org/jira/secure/attachment/15809/CLJS-1723.patch
 https://dev.clojure.org/jira/secure/attachment/15933/CLJS-1776.patch
@@ -15,7 +13,6 @@ https://dev.clojure.org/jira/secure/attachment/16911/CLJS-2120.patch
 https://dev.clojure.org/jira/secure/attachment/16925/CLJS-2132.patch
 https://dev.clojure.org/jira/secure/attachment/16937/CLJS-2138.patch
 https://dev.clojure.org/jira/secure/attachment/16953/CLJS-2147.patch
-https://dev.clojure.org/jira/secure/attachment/16969/001-CLJS-2168.patch
 https://dev.clojure.org/jira/secure/attachment/17022/CLJS-2196.patch
 https://dev.clojure.org/jira/secure/attachment/17153/CLJS-2301.patch
 https://dev.clojure.org/jira/secure/attachment/17195/CLJS-2319-Fix-cljs.core-mod-handling-of-floats_INLINED.patch
@@ -24,10 +21,8 @@ https://dev.clojure.org/jira/secure/attachment/17318/CLJS-2346.patch
 https://dev.clojure.org/jira/secure/attachment/17377/const-ast-2.patch
 https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure.string-escape-constent-with-C.patch
 https://dev.clojure.org/jira/secure/attachment/17409/0001-CLJS-1631-Make-str-handle-js-symbols.patch
-https://dev.clojure.org/jira/secure/attachment/17410/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str.patch
 https://dev.clojure.org/jira/secure/attachment/17430/CLJS-2383.patch
 https://dev.clojure.org/jira/secure/attachment/17433/CLJS-2385.patch
-https://dev.clojure.org/jira/secure/attachment/17458/CLJS-2342-3.patch
 https://dev.clojure.org/jira/secure/attachment/17459/0006-CLJS-2386-fix-join-aset.patch
 https://dev.clojure.org/jira/secure/attachment/17503/CLJS-1458-re-matches-might-give-false-negative-2.patch
 https://dev.clojure.org/jira/secure/attachment/17504/CLJS-2402.patch
@@ -37,13 +32,8 @@ https://dev.clojure.org/jira/secure/attachment/17529/CLJS-2424.patch
 https://dev.clojure.org/jira/secure/attachment/17555/CLJS-2004-rebase.patch
 https://dev.clojure.org/jira/secure/attachment/17593/CLJS-2247-2.patch
 https://dev.clojure.org/jira/secure/attachment/17594/CLJS-1965-failing-tests.patch
-https://dev.clojure.org/jira/secure/attachment/17651/CLJS-2469.patch
 https://dev.clojure.org/jira/secure/attachment/17664/CLJS-2480.patch
 https://dev.clojure.org/jira/secure/attachment/17666/CLJS-2479.patch
-https://dev.clojure.org/jira/secure/attachment/17728/CLJS-2527.patch
-https://dev.clojure.org/jira/secure/attachment/17747/CLJS-2537.patch
-https://dev.clojure.org/jira/secure/attachment/17748/CLJS-2538.patch
-https://dev.clojure.org/jira/secure/attachment/17790/CLJS-1561-2.patch
 https://dev.clojure.org/jira/secure/attachment/17791/CLJS-2541.patch
 https://dev.clojure.org/jira/secure/attachment/17833/CLJS-2604.patch
 https://dev.clojure.org/jira/secure/attachment/17842/CLJS-2619.patchi
