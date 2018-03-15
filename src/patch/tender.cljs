@@ -1,4 +1,4 @@
-(ns plaid.core
+(ns patch.tender
   (:require
    [clojure.string :as string]
    [planck.core :refer [spit slurp line-seq]]
@@ -14,14 +14,14 @@
       (-> (:out (shell/sh "env"))
         (string/split #"\n")))))
 
-(defn plaid-cache []
-  (io/file (get (get-env) "HOME") ".plaid" ".patches"))
+(defn cache-dir []
+  (io/file (get (get-env) "HOME") ".patch-tender" "patches"))
 
 (defn fetch-patch [tmpdir url]
-  (let [plaid-cache (plaid-cache)]
-    (when-not (io/file-attributes plaid-cache)
-      (shell/sh "mkdir" "-p" (:path plaid-cache)))
-    (let [cache-file (io/file plaid-cache (Math/abs (hash url)))]
+  (let [cache-dir (cache-dir)]
+    (when-not (io/file-attributes cache-dir)
+      (shell/sh "mkdir" "-p" (:path cache-dir)))
+    (let [cache-file (io/file cache-dir (Math/abs (hash url)))]
       (when-not (io/file-attributes cache-file)
         (spit cache-file (slurp url)))
       (spit (io/file tmpdir "temp.patch") (slurp cache-file)))))
