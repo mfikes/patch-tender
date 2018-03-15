@@ -19,10 +19,10 @@
 
 (defn fetch-patch [tmpdir url]
   (let [cache-dir (cache-dir)]
-    (when-not (io/file-attributes cache-dir)
-      (shell/sh "mkdir" "-p" (:path cache-dir)))
-    (let [cache-file (io/file cache-dir (Math/abs (hash url)))]
+    (let [cache-file (io/file cache-dir (str (Math/abs (hash url))))]
       (when-not (io/file-attributes cache-file)
+        (when-not (io/make-parents cache-file)
+          (throw (ex-info "failed to make cache dir" {:dir cache-dir})))
         (spit cache-file (slurp url)))
       (spit (io/file tmpdir "temp.patch") (slurp cache-file)))))
 
