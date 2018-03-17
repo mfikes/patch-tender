@@ -1,3 +1,4 @@
+https://dev.clojure.org/jira/secure/attachment/17898/CLJS-2670.patch
 https://dev.clojure.org/jira/secure/attachment/17897/CLJS-2661.patch
 https://dev.clojure.org/jira/secure/attachment/17895/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str.patch
 https://dev.clojure.org/jira/secure/attachment/17896/CLJS-2651-2.patch
