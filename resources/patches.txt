@@ -1,3 +1,4 @@
+https://dev.clojure.org/jira/secure/attachment/17904/CLJS-2650-loader-does-not-exist.patch
 https://dev.clojure.org/jira/secure/attachment/17902/CLJS-2671-2.patch
 https://dev.clojure.org/jira/secure/attachment/17897/CLJS-2661.patch
 https://dev.clojure.org/jira/secure/attachment/17895/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str.patch
