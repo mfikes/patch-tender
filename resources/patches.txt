@@ -1,6 +1,5 @@
-https://dev.clojure.org/jira/secure/attachment/17924/CLJS-2690.patch
+https://dev.clojure.org/jira/secure/attachment/17929/CLJS-2692.patch
 https://dev.clojure.org/jira/secure/attachment/17926/0001-CLJS-2618-Fix-docstring-for-remove-tap.patch
-https://dev.clojure.org/jira/secure/attachment/17921/CLJS-2687.patch
 https://dev.clojure.org/jira/secure/attachment/17918/CLJS-2681-1.patch
 https://dev.clojure.org/jira/secure/attachment/17919/CLJS-2686.patch
 https://dev.clojure.org/jira/secure/attachment/17917/CLJS-2680.patch
