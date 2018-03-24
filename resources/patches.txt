@@ -1,12 +1,8 @@
+https://dev.clojure.org/jira/secure/attachment/17941/CLJS-2701.patch
 https://dev.clojure.org/jira/secure/attachment/17933/CLJS-2681-3-with-validation.patch
-https://dev.clojure.org/jira/secure/attachment/17929/CLJS-2692.patch
-https://dev.clojure.org/jira/secure/attachment/17936/CLJS-2698.patch
-https://dev.clojure.org/jira/secure/attachment/17935/CLJS-2697.patch
 https://dev.clojure.org/jira/secure/attachment/17926/0001-CLJS-2618-Fix-docstring-for-remove-tap.patch
 https://dev.clojure.org/jira/secure/attachment/17918/CLJS-2681-1.patch
 https://dev.clojure.org/jira/secure/attachment/17919/CLJS-2686.patch
-https://dev.clojure.org/jira/secure/attachment/17917/CLJS-2680.patch
-https://dev.clojure.org/jira/secure/attachment/17897/CLJS-2661.patch
 https://dev.clojure.org/jira/secure/attachment/17895/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str.patch
 https://dev.clojure.org/jira/secure/attachment/17913/CLJS-2651-3.patch
 https://dev.clojure.org/jira/secure/attachment/17893/CLJS-2527.1.patch
