@@ -1,4 +1,3 @@
-https://dev.clojure.org/jira/secure/attachment/17956/CLJS-2716-2.patch
 https://dev.clojure.org/jira/secure/attachment/17955/CLJS-2715.patch
 https://dev.clojure.org/jira/secure/attachment/17941/CLJS-2701.patch
 https://dev.clojure.org/jira/secure/attachment/17933/CLJS-2681-3-with-validation.patch
@@ -29,7 +28,6 @@ https://dev.clojure.org/jira/secure/attachment/17313/CLJS-2341.patch
 https://dev.clojure.org/jira/secure/attachment/17318/CLJS-2346.patch
 https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure.string-escape-constent-with-C.patch
 https://dev.clojure.org/jira/secure/attachment/17409/0001-CLJS-1631-Make-str-handle-js-symbols.patch
-https://dev.clojure.org/jira/secure/attachment/17430/CLJS-2383.patch
 https://dev.clojure.org/jira/secure/attachment/17433/CLJS-2385.patch
 https://dev.clojure.org/jira/secure/attachment/17459/0006-CLJS-2386-fix-join-aset.patch
 https://dev.clojure.org/jira/secure/attachment/17503/CLJS-1458-re-matches-might-give-false-negative-2.patch
