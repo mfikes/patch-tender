@@ -1,4 +1,4 @@
-https://dev.clojure.org/jira/secure/attachment/17955/CLJS-2715.patch
+https://dev.clojure.org/jira/secure/attachment/17984/CLJS-1702-5.patch
 https://dev.clojure.org/jira/secure/attachment/17941/CLJS-2701.patch
 https://dev.clojure.org/jira/secure/attachment/17933/CLJS-2681-3-with-validation.patch
 https://dev.clojure.org/jira/secure/attachment/17926/0001-CLJS-2618-Fix-docstring-for-remove-tap.patch
@@ -28,7 +28,6 @@ https://dev.clojure.org/jira/secure/attachment/17313/CLJS-2341.patch
 https://dev.clojure.org/jira/secure/attachment/17318/CLJS-2346.patch
 https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure.string-escape-constent-with-C.patch
 https://dev.clojure.org/jira/secure/attachment/17409/0001-CLJS-1631-Make-str-handle-js-symbols.patch
-https://dev.clojure.org/jira/secure/attachment/17433/CLJS-2385.patch
 https://dev.clojure.org/jira/secure/attachment/17459/0006-CLJS-2386-fix-join-aset.patch
 https://dev.clojure.org/jira/secure/attachment/17503/CLJS-1458-re-matches-might-give-false-negative-2.patch
 https://dev.clojure.org/jira/secure/attachment/17504/CLJS-2402.patch
@@ -42,9 +41,7 @@ https://dev.clojure.org/jira/secure/attachment/17664/CLJS-2480.patch
 https://dev.clojure.org/jira/secure/attachment/17666/CLJS-2479.patch
 https://dev.clojure.org/jira/secure/attachment/17791/CLJS-2541.patch
 https://dev.clojure.org/jira/secure/attachment/17833/CLJS-2604.patch
-https://dev.clojure.org/jira/secure/attachment/17842/CLJS-2619.patchi
 https://dev.clojure.org/jira/secure/attachment/17876/CLJS-2624-3.patch
-https://dev.clojure.org/jira/secure/attachment/17878/CLJS-1702-3.patch
 https://dev.clojure.org/jira/secure/attachment/17887/CLJS-2409-4.patch
 https://dev.clojure.org/jira/secure/attachment/17889/CLJS-1561-3.patch
 https://dev.clojure.org/jira/secure/attachment/17890/CLJS-2342-4.patch
