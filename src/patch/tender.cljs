@@ -5,7 +5,10 @@
    [planck.io :as io]
    [planck.shell :as shell :refer [with-sh-dir]]))
 
-(def patches (line-seq (io/reader (io/resource "patches.txt"))))
+(defn resource-lines [filename]
+  (line-seq (io/reader (io/resource filename))))
+
+(def patches (resource-lines "patches.txt"))
 
 (defn get-env []
   (into {}
@@ -24,15 +27,31 @@
         (when-not (io/make-parents cache-file)
           (throw (ex-info "failed to make cache dir" {:dir cache-dir})))
         (spit cache-file (slurp url)))
-      (spit (io/file tmpdir "temp.patch") (slurp cache-file)))))
+      (io/copy cache-file (io/file tmpdir "temp.patch")))))
 
-(defn -main []
-  (let [tmpdir (string/trim (:out (shell/sh "mktemp" "-d")))]
+(defn -main [& args]
+  (let [build? (= "build" (first args))
+        patch-filter (if build?
+                       (let [tickets (resource-lines "tickets.txt")]
+                         (fn [url]
+                           (some (fn [ticket]
+                                   (string/includes? url ticket))
+                             tickets)))
+                       (constantly true))
+        tmpdir (io/file (string/trim (:out (shell/sh "mktemp" "-d"))))]
     (with-sh-dir tmpdir
       (shell/sh "git" "clone" "https://github.com/clojure/clojurescript")
-      (doseq [url patches]
+      (doseq [url (filter patch-filter patches)]
         (fetch-patch tmpdir url)
-        (with-sh-dir (str tmpdir "/clojurescript")
-          (let [res (shell/sh "git" "apply" "--check" "../temp.patch")]
+        (with-sh-dir (io/file tmpdir "clojurescript")
+          (let [res (if build?
+                      (shell/sh "git" "apply" "../temp.patch")
+                      (shell/sh "git" "apply" "--check" "../temp.patch"))]
             (when-not (zero? (:exit res))
-              (println url "does not apply"))))))))
+              (println url "does not apply")))))
+      (when build?
+        (println "Building...")
+        (with-sh-dir (io/file tmpdir "clojurescript")
+          (let [res (shell/sh "script/build")]
+            (println (:err res))
+            (println (:out res))))))))
