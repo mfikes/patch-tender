@@ -1,3 +1,4 @@
+https://dev.clojure.org/jira/secure/attachment/17988/CLJS-1561-4.patch
 https://dev.clojure.org/jira/secure/attachment/17986/CLJS-1702-6.patch
 https://dev.clojure.org/jira/secure/attachment/17985/CLJS-1627-7.patch
 https://dev.clojure.org/jira/secure/attachment/17941/CLJS-2701.patch
@@ -44,7 +45,6 @@ https://dev.clojure.org/jira/secure/attachment/17791/CLJS-2541.patch
 https://dev.clojure.org/jira/secure/attachment/17833/CLJS-2604.patch
 https://dev.clojure.org/jira/secure/attachment/17876/CLJS-2624-3.patch
 https://dev.clojure.org/jira/secure/attachment/17887/CLJS-2409-4.patch
-https://dev.clojure.org/jira/secure/attachment/17889/CLJS-1561-3.patch
 https://dev.clojure.org/jira/secure/attachment/17890/CLJS-2342-4.patch
 https://dev.clojure.org/jira/secure/attachment/17891/CLJS-2537-2.patch
 https://dev.clojure.org/jira/secure/attachment/17892/CLJS-2538-2.patch
