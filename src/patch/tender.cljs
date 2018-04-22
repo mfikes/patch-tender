@@ -30,7 +30,8 @@
       (io/copy cache-file (io/file tmpdir "temp.patch")))))
 
 (defn -main [& args]
-  (let [build? (= "build" (first args))
+  (let [test? (= "test" (first args))
+        build? (or test? (= "build" (first args)))
         patch-filter (if build?
                        (let [tickets (resource-lines "tickets.txt")]
                          (fn [url]
@@ -53,5 +54,12 @@
         (println "Building...")
         (with-sh-dir (io/file tmpdir "clojurescript")
           (let [res (shell/sh "script/build")]
+            (println (:err res))
+            (println (:out res)))))
+     (when test?
+        (println "Testing...")
+        (with-sh-dir (io/file tmpdir "clojurescript")
+          (shell/sh "script/bootstrap")
+          (let [res (shell/sh "script/test")]
             (println (:err res))
             (println (:out res))))))))

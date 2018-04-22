@@ -11,3 +11,9 @@ Build ClojureScript compiler with patches for select tickets in `resources/ticke
 ```
 plk -Abuild
 ```
+
+Build (as above) and then run ClojureScript compiler tests:
+
+```
+plk -Atest
+```

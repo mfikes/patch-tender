@@ -1,3 +1,4 @@
 {:paths ["src" "resources"]
  :aliases {:check {:main-opts ["-m" "patch.tender check"]}
-           :build {:main-opts ["-m" "patch.tender build"]}}}
+           :build {:main-opts ["-m" "patch.tender build"]}
+           :test {:main-opts ["-m" "patch.tender test"]}}}
