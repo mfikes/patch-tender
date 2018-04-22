@@ -1,5 +1,6 @@
+https://dev.clojure.org/jira/secure/attachment/17994/CLJS-2741.patch
+https://dev.clojure.org/jira/secure/attachment/17989/CLJS-1702-7.patch
 https://dev.clojure.org/jira/secure/attachment/17988/CLJS-1561-4.patch
-https://dev.clojure.org/jira/secure/attachment/17986/CLJS-1702-6.patch
 https://dev.clojure.org/jira/secure/attachment/17985/CLJS-1627-7.patch
 https://dev.clojure.org/jira/secure/attachment/17941/CLJS-2701.patch
 https://dev.clojure.org/jira/secure/attachment/17933/CLJS-2681-3-with-validation.patch
