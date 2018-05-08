@@ -1,8 +1,4 @@
-https://dev.clojure.org/jira/secure/attachment/18106/CLJS-2739.patch
-https://dev.clojure.org/jira/secure/attachment/18105/CLJS-2724.patch
-https://dev.clojure.org/jira/secure/attachment/18104/CLJS-2702.patch
 https://dev.clojure.org/jira/secure/attachment/18102/CLJS-2731.patch
-https://dev.clojure.org/jira/secure/attachment/17994/CLJS-2741.patch
 https://dev.clojure.org/jira/secure/attachment/17989/CLJS-1702-7.patch
 https://dev.clojure.org/jira/secure/attachment/17988/CLJS-1561-4.patch
 https://dev.clojure.org/jira/secure/attachment/17985/CLJS-1627-7.patch
@@ -13,7 +9,6 @@ https://dev.clojure.org/jira/secure/attachment/17918/CLJS-2681-1.patch
 https://dev.clojure.org/jira/secure/attachment/17919/CLJS-2686.patch
 https://dev.clojure.org/jira/secure/attachment/17895/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str.patch
 https://dev.clojure.org/jira/secure/attachment/17913/CLJS-2651-3.patch
-https://dev.clojure.org/jira/secure/attachment/17893/CLJS-2527.1.patch
 https://dev.clojure.org/jira/secure/attachment/15808/CLJS-1722.patch
 https://dev.clojure.org/jira/secure/attachment/15809/CLJS-1723.patch
 https://dev.clojure.org/jira/secure/attachment/15933/CLJS-1776.patch
@@ -41,14 +36,12 @@ https://dev.clojure.org/jira/secure/attachment/17504/CLJS-2402.patch
 https://dev.clojure.org/jira/secure/attachment/17513/CLJS-1676.patch
 https://dev.clojure.org/jira/secure/attachment/17525/CLJS-1558.patch
 https://dev.clojure.org/jira/secure/attachment/17529/CLJS-2424.patch
-https://dev.clojure.org/jira/secure/attachment/17555/CLJS-2004-rebase.patch
 https://dev.clojure.org/jira/secure/attachment/17593/CLJS-2247-2.patch
 https://dev.clojure.org/jira/secure/attachment/17594/CLJS-1965-failing-tests.patch
 https://dev.clojure.org/jira/secure/attachment/17664/CLJS-2480.patch
 https://dev.clojure.org/jira/secure/attachment/17666/CLJS-2479.patch
 https://dev.clojure.org/jira/secure/attachment/17791/CLJS-2541.patch
 https://dev.clojure.org/jira/secure/attachment/17833/CLJS-2604.patch
-https://dev.clojure.org/jira/secure/attachment/17876/CLJS-2624-3.patch
 https://dev.clojure.org/jira/secure/attachment/17887/CLJS-2409-4.patch
 https://dev.clojure.org/jira/secure/attachment/17890/CLJS-2342-4.patch
 https://dev.clojure.org/jira/secure/attachment/17891/CLJS-2537-2.patch
