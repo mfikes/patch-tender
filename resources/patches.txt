@@ -1,3 +1,9 @@
+https://dev.clojure.org/jira/secure/attachment/17919/CLJS-2686.patch
+https://dev.clojure.org/jira/secure/attachment/17969/CLJS-2703.patch
+https://dev.clojure.org/jira/secure/attachment/18102/CLJS-2731.patch
+https://dev.clojure.org/jira/secure/attachment/18091/0001-CLJS-2743-Fix-docstring-misspelling.patch
+https://dev.clojure.org/jira/secure/attachment/18115/CLJS-2746.patch
+https://dev.clojure.org/jira/secure/attachment/18117/CLJS-2750.patch
 https://dev.clojure.org/jira/secure/attachment/18102/CLJS-2731.patch
 https://dev.clojure.org/jira/secure/attachment/17989/CLJS-1702-7.patch
 https://dev.clojure.org/jira/secure/attachment/17988/CLJS-1561-4.patch
