@@ -9,8 +9,6 @@ https://dev.clojure.org/jira/secure/attachment/18102/CLJS-2731.patch
 https://dev.clojure.org/jira/secure/attachment/17989/CLJS-1702-7.patch
 https://dev.clojure.org/jira/secure/attachment/17988/CLJS-1561-4.patch
 https://dev.clojure.org/jira/secure/attachment/17985/CLJS-1627-7.patch
-https://dev.clojure.org/jira/secure/attachment/17933/CLJS-2681-3-with-validation.patch
-https://dev.clojure.org/jira/secure/attachment/17918/CLJS-2681-1.patch
 https://dev.clojure.org/jira/secure/attachment/17919/CLJS-2686.patch
 https://dev.clojure.org/jira/secure/attachment/17895/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str.patch
 https://dev.clojure.org/jira/secure/attachment/15808/CLJS-1722.patch
