@@ -31,6 +31,7 @@
 
 (defn -main [& args]
   (let [test? (= "test" (first args))
+        test-ndx (and test? (when-some [ndx (second args)] (js/parseInt ndx)))
         build? (or test? (= "build" (first args)))
         patch-filter (if build?
                        (let [tickets (resource-lines "tickets.txt")]
@@ -42,7 +43,10 @@
         tmpdir (io/file (string/trim (:out (shell/sh "mktemp" "-d"))))]
     (with-sh-dir tmpdir
       (shell/sh "git" "clone" "https://github.com/clojure/clojurescript")
-      (doseq [url (filter patch-filter patches)]
+      (doseq [url (if test-ndx
+                    [(nth (filter patch-filter patches) test-ndx)]
+                    (filter patch-filter patches))]
+        (when test-ndx (println "Testing" url))
         (fetch-patch tmpdir url)
         (with-sh-dir (io/file tmpdir "clojurescript")
           (let [res (if build?
