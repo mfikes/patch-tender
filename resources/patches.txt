@@ -1,3 +1,5 @@
+https://dev.clojure.org/jira/secure/attachment/18279/CLJS-2804.patch
+https://dev.clojure.org/jira/secure/attachment/18273/CLJS-2527.3.patch
 https://dev.clojure.org/jira/secure/attachment/18272/CLJS-2802.patch
 https://dev.clojure.org/jira/secure/attachment/18273/CLJS-2527.3.patch
 https://dev.clojure.org/jira/secure/attachment/18274/CLJS-1997-3.patch
