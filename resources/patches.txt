@@ -2,13 +2,11 @@ https://dev.clojure.org/jira/secure/attachment/18279/CLJS-2804.patch
 https://dev.clojure.org/jira/secure/attachment/18273/CLJS-2527.3.patch
 https://dev.clojure.org/jira/secure/attachment/18272/CLJS-2802.patch
 https://dev.clojure.org/jira/secure/attachment/18273/CLJS-2527.3.patch
-https://dev.clojure.org/jira/secure/attachment/18274/CLJS-1997-3.patch
 https://dev.clojure.org/jira/secure/attachment/18269/CLJS-1558-2.patch
 https://dev.clojure.org/jira/secure/attachment/18268/CLJS-2247-3.patch
 https://dev.clojure.org/jira/secure/attachment/18266/CLJS-2693.patch
 https://dev.clojure.org/jira/secure/attachment/18262/CLJS-2341-2.patch
 https://dev.clojure.org/jira/secure/attachment/18117/CLJS-2750.patch
-https://dev.clojure.org/jira/secure/attachment/18276/CLJS-1702-10.patch
 https://dev.clojure.org/jira/secure/attachment/17628/CLJS-2467.patch
 https://dev.clojure.org/jira/secure/attachment/17919/CLJS-2686.patch
 https://dev.clojure.org/jira/secure/attachment/18117/CLJS-2750.patch
@@ -37,7 +35,6 @@ https://dev.clojure.org/jira/secure/attachment/17459/0006-CLJS-2386-fix-join-ase
 https://dev.clojure.org/jira/secure/attachment/17503/CLJS-1458-re-matches-might-give-false-negative-2.patch
 https://dev.clojure.org/jira/secure/attachment/17504/CLJS-2402.patch
 https://dev.clojure.org/jira/secure/attachment/17513/CLJS-1676.patch
-https://dev.clojure.org/jira/secure/attachment/17529/CLJS-2424.patch
 https://dev.clojure.org/jira/secure/attachment/17594/CLJS-1965-failing-tests.patch
 https://dev.clojure.org/jira/secure/attachment/17666/CLJS-2479.patch
 https://dev.clojure.org/jira/secure/attachment/17791/CLJS-2541.patch
