@@ -1,8 +1,15 @@
+https://dev.clojure.org/jira/secure/attachment/18311/CLJS-2819-4.patch
+https://dev.clojure.org/jira/secure/attachment/18310/CLJS-1558-3.patch
+https://dev.clojure.org/jira/secure/attachment/18308/CLJS-2827.patch
+https://dev.clojure.org/jira/secure/attachment/18307/CLJS-2822.patch
+https://dev.clojure.org/jira/secure/attachment/18305/CLJS-2821.patch
+https://dev.clojure.org/jira/secure/attachment/18304/CLJS-2806.patch
+https://dev.clojure.org/jira/secure/attachment/18299/CLJS-2817.patch
+https://dev.clojure.org/jira/secure/attachment/18293/CLJS-2813.patch
 https://dev.clojure.org/jira/secure/attachment/18279/CLJS-2804.patch
 https://dev.clojure.org/jira/secure/attachment/18273/CLJS-2527.3.patch
 https://dev.clojure.org/jira/secure/attachment/18272/CLJS-2802.patch
 https://dev.clojure.org/jira/secure/attachment/18273/CLJS-2527.3.patch
-https://dev.clojure.org/jira/secure/attachment/18269/CLJS-1558-2.patch
 https://dev.clojure.org/jira/secure/attachment/18268/CLJS-2247-3.patch
 https://dev.clojure.org/jira/secure/attachment/18266/CLJS-2693.patch
 https://dev.clojure.org/jira/secure/attachment/18262/CLJS-2341-2.patch
