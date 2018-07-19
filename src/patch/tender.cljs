@@ -29,22 +29,29 @@
         (spit cache-file (slurp url)))
       (io/copy cache-file (io/file tmpdir "temp.patch")))))
 
+(def normalize (fn [n len]
+                  (loop [ns (str n)]
+                    (if (< (count ns) len)
+                      (recur (str "0" ns))
+                      ns))))
+
 (defn inst->branch-name-suffix
   [ts]
-  (let [normalize (fn [n len]
-                    (loop [ns (str n)]
-                      (if (< (count ns) len)
-                        (recur (str "0" ns))
-                        ns)))]
-    (str
-      (.getUTCFullYear ts) "-"
-      (normalize (inc (.getUTCMonth ts)) 2) "-"
-      (normalize (.getUTCDate ts) 2) "T"
-      (normalize (.getUTCHours ts) 2))))
+  (str
+    (.getUTCFullYear ts) "-"
+    (normalize (inc (.getUTCMonth ts)) 2) "-"
+    (normalize (.getUTCDate ts) 2) "T"
+    (normalize (.getUTCHours ts) 2)))
 
 (defn inst->branch-name
   [ts]
   (str "patch-tender-" (inst->branch-name-suffix ts)))
+
+(defn date-format [ts]
+  (str
+    (.getUTCFullYear ts) "-"
+    (normalize (inc (.getUTCMonth ts)) 2) "-"
+    (normalize (.getUTCDate ts) 2)))
 
 (defn -main [& args]
   (let [push? (= "push" (first args))
@@ -60,7 +67,8 @@
                        (constantly true))
         tmpdir (io/file (string/trim (:out (shell/sh "mktemp" "-d"))))
         clojurescript-dir (io/file tmpdir "clojurescript")
-        branch-name (inst->branch-name (js/Date.))]
+        build-date (js/Date.)
+        branch-name (inst->branch-name build-date)]
     (with-sh-dir tmpdir
       (shell/sh "git" "clone" "https://github.com/clojure/clojurescript")
       (with-sh-dir clojurescript-dir
@@ -104,9 +112,7 @@
             "ClojureScript [JIRA](https://dev.clojure.org/jira/browse/CLJS) contains many candidate patches that have not yet been applied to master." \newline
             "The `patch-tender` project maintains and applies a curated set of these patches in a public stable GitHub branch so they can be easily soak-tested in downstream projects." \newline
             \newline
-            "The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:" branch-name ") are in this branch:" \newline
-            \newline
-            "   https://github.com/mfikes/clojurescript/commits/" branch-name " " \newline
+            "The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:" branch-name ") as of " (date-format build-date) "are in [this branch](https://github.com/mfikes/clojurescript/commits/" branch-name ")." \newline
             \newline
             "Branch build status: " "[![Build Status](https://travis-ci.org/mfikes/clojurescript.svg?branch=" branch-name ")](https://travis-ci.org/mfikes/clojurescript)"
             " " "[![Build status](https://ci.appveyor.com/api/projects/status/oggs1yydb8c2t6pa/branch/" branch-name "?svg=true)](https://ci.appveyor.com/project/mfikes/clojurescript/branch/" branch-name ")"
