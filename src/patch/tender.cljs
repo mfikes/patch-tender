@@ -123,7 +123,7 @@
             "                           :sha \"" sha "\"} " \newline
             "```" \newline
             \newline
-            "Or you can clone and build this branch for use in a `lein`- or `boot`-based project:" \newline
+            "or you can clone and build this branch for use in a `lein`- or `boot`-based project:" \newline
             \newline
             "```" \newline
             "$ git clone https://github.com/mfikes/clojurescript -b " branch-name \newline
