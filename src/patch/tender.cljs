@@ -51,7 +51,7 @@
         test? (= "test" (first args))
         test-ndx (and test? (when-some [ndx (second args)] (js/parseInt ndx)))
         build? (or test? (= "build" (first args)))
-        patch-filter (if build?
+        patch-filter (if (or push? build?)
                        (let [tickets (resource-lines "tickets.txt")]
                          (fn [url]
                            (some (fn [ticket]
