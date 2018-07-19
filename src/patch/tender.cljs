@@ -130,7 +130,7 @@
             "$ cd clojurescript" \newline
             "$ script/build" \newline
             "```" \newline
-            "For more info see https://clojurescript.org/community/building"))
+            "For more info see [Building the compiler](https://clojurescript.org/community/building)."))
         (shell/sh "git" "stage" "README.md")
         (shell/sh "git" "commit" "-m" (str "Latest patches in branch " branch-name))
         (shell/sh "git" "push")))))
