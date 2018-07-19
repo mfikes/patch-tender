@@ -103,9 +103,9 @@
             "# patch-tender" \newline
             "ClojureScript [JIRA](https://dev.clojure.org/jira/browse/CLJS) contains many candidate patches that have not yet been applied to master." \newline
             \newline
-            "`patch-tender` is used to maintain a curated list of patches, applying them in a branch so they can be soak-tested." \newline
+            "`patch-tender` is used to maintain a curated list of patches, applying them in a branch so they can be easily soak-tested in downstream projects." \newline
             \newline
-            "The latest set of applied patches are in this branch " \newline
+            "The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:" branch-name ") are in this branch " \newline
             \newline
             "   https://github.com/mfikes/clojurescript/commits/" branch-name " " \newline
             \newline
