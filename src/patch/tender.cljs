@@ -50,7 +50,10 @@
         (fetch-patch tmpdir url)
         (with-sh-dir (io/file tmpdir "clojurescript")
           (let [res (if build?
-                      (shell/sh "git" "apply" "../temp.patch")
+                      (let [res2 (shell/sh "git" "apply" "--check" "../temp.patch")]
+                        (if (zero? (:exit res2))
+                          (shell/sh "git" "am" "../temp.patch")
+                          res2))
                       (shell/sh "git" "apply" "--check" "../temp.patch"))]
             (when-not (zero? (:exit res))
               (println url "does not apply")))))
