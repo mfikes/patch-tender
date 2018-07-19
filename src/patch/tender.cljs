@@ -97,7 +97,7 @@
       (with-sh-dir clojurescript-dir
         (shell/sh "git" "remote" "add" "personal" "git@github.com:mfikes/clojurescript")
         (shell/sh "git" "push" "personal"))
-      (let [sha (string/trim (:out (shell/sh "git" "rev-parse" "HEAD")))]
+      (let [sha (string/trim (:out (with-sh-dir clojurescript-dir (shell/sh "git" "rev-parse" "HEAD"))))]
         (spit "README.md"
           (str
             "# patch-tender" \newline
