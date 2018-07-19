@@ -126,5 +126,5 @@
             "```" \newline
             "For more info see https://clojurescript.org/community/building"))
         (shell/sh "git" "stage" "README.md")
-        (shell/sh "git" "commit" "-m" "\"Latest patches\"")
+        (shell/sh "git" "commit" "-m" (str "Latest patches in branch " branch-name))
         (shell/sh "git" "push")))))
