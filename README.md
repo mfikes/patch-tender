@@ -1,9 +1,9 @@
 # patch-tender
 ClojureScript [JIRA](https://dev.clojure.org/jira/browse/CLJS) contains many candidate patches that have not yet been applied to master.
 
-`patch-tender` is used to maintain a curated list of patches, applying them in a branch so they can be soak-tested.
+`patch-tender` is used to maintain a curated list of patches, applying them in a branch so they can be easily soak-tested in downstream projects.
 
-The latest set of applied patches are in this branch 
+The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:patch-tender-2018-07-19T15) are in this branch 
 
    https://github.com/mfikes/clojurescript/commits/patch-tender-2018-07-19T15 
 
@@ -11,7 +11,7 @@ Branch build status: [![Build Status](https://travis-ci.org/mfikes/clojurescript
 
 If using `deps.edn` you can depend on this set of patches via
 ```clojure
-org.clojure/clojurescript {:git/url "https://github.com/mfikes/clojurescript", :sha "3cf246ac1716a10b2dc4b145297d53c66100de31"}
+org.clojure/clojurescript {:git/url "https://github.com/mfikes/clojurescript", :sha "bdb9d41d0360d18185c95a429e941deaed647078"}
 ```
 
 Or you can clone and build this branch for use in a `lein`- or `boot`-based project:
