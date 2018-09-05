@@ -119,7 +119,7 @@
             \newline \newline
             "If using `deps.edn` you can depend on this set of patches via" \newline
             "```clojure" \newline
-            "org.clojure/clojurescript {:git/url \"https://github.com/mfikes/clojurescript\" :sha \"" sha "\"} " \newline
+            "org.clojure/clojurescript {:git/url \"https://github.com/mfikes/clojurescript\" :sha \"" sha "\"}" \newline
             "```" \newline
             \newline
             "or you can clone and build this branch for use in a `lein`- or `boot`-based project:" \newline
