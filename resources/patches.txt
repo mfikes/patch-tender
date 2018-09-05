@@ -1,4 +1,5 @@
 https://dev.clojure.org/jira/secure/attachment/18433/CLJS-2869-5.patch
+https://dev.clojure.org/jira/secure/attachment/18401/CLJS-2866-2.patch
 https://dev.clojure.org/jira/secure/attachment/18457/CLJS-2893.patch
 https://dev.clojure.org/jira/secure/attachment/18456/CLJS-2891.patch
 https://dev.clojure.org/jira/secure/attachment/18454/CLJS-2865-3.patch
