@@ -62,7 +62,8 @@
                        (let [tickets (resource-lines "tickets.txt")]
                          (fn [url]
                            (some (fn [ticket]
-                                   (string/includes? url ticket))
+                                   (string/includes? (string/lower-case url) 
+                                     (string/lower-case ticket)))
                              tickets)))
                        (constantly true))
         tmpdir (io/file (string/trim (:out (shell/sh "mktemp" "-d"))))
