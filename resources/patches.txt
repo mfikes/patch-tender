@@ -1,6 +1,5 @@
-https://dev.clojure.org/jira/secure/attachment/18562/CLJS-2933.patch
 https://dev.clojure.org/jira/secure/attachment/18561/CLJS-2753.patch
-https://dev.clojure.org/jira/secure/attachment/18558/CLJS-2934.patch
+https://dev.clojure.org/jira/secure/attachment/18583/CLJS-2934-2.patch
 https://dev.clojure.org/jira/secure/attachment/18556/cljs-2931.patch
 https://dev.clojure.org/jira/secure/attachment/18555/CLJS-2927.patch
 https://dev.clojure.org/jira/secure/attachment/18543/CLJS-2209.patch
@@ -25,13 +24,13 @@ https://dev.clojure.org/jira/secure/attachment/18482/CLJS-2908.patch
 https://dev.clojure.org/jira/secure/attachment/18480/CLJS-2898-2.patch
 https://dev.clojure.org/jira/secure/attachment/18463/CLJS-2867.patch
 https://dev.clojure.org/jira/secure/attachment/18433/CLJS-2869-5.patch
-https://dev.clojure.org/jira/secure/attachment/18454/CLJS-2865-3.patch
-https://dev.clojure.org/jira/secure/attachment/18447/CLJS-2886-2.patch
+https://dev.clojure.org/jira/secure/attachment/18581/CLJS-2865-4.patch
+https://dev.clojure.org/jira/secure/attachment/18582/CLJS-2886-3.patch
 https://dev.clojure.org/jira/secure/attachment/18444/CLJS-2885.patch
 https://dev.clojure.org/jira/secure/attachment/18440/CLJS-2881.patch
 https://dev.clojure.org/jira/secure/attachment/18436/CLJS-2880.patch
 https://dev.clojure.org/jira/secure/attachment/18435/CLJS-2879.patch
-https://dev.clojure.org/jira/secure/attachment/18396/CLJS-2864.patch
+https://dev.clojure.org/jira/secure/attachment/18580/CLJS-2864-2.patch
 https://dev.clojure.org/jira/secure/attachment/18349/CLJS-2781.patch
 https://dev.clojure.org/jira/secure/attachment/18338/0001-CLJS-2853-Remove-wrongly-carried-over-docs-from-Cloj.patch
 https://dev.clojure.org/jira/secure/attachment/18323/CLJS-2825.patch
