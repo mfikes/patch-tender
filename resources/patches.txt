@@ -1,7 +1,6 @@
 https://dev.clojure.org/jira/secure/attachment/18624/CLJS-2869-6.patch
 https://dev.clojure.org/jira/secure/attachment/18622/CLJS-2865-5.patch
 https://dev.clojure.org/jira/secure/attachment/18623/CLJS-2967.patch
-https://dev.clojure.org/jira/secure/attachment/18616/CLJS-2964.patch
 https://dev.clojure.org/jira/secure/attachment/18615/CLJS-2963.patch
 https://dev.clojure.org/jira/secure/attachment/18598/CLJS-2956.patch
 https://dev.clojure.org/jira/secure/attachment/18608/CLJS-2933-2.patch
