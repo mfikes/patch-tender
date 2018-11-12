@@ -2,19 +2,19 @@
 ClojureScript [JIRA](https://dev.clojure.org/jira/browse/CLJS) contains many candidate patches that have not yet been applied to master.
 The `patch-tender` project maintains and applies a curated set of these patches in a public stable GitHub branch so they can be easily soak-tested in downstream projects.
 
-The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:patch-tender-2018-11-07T13) as of 2018-11-07 are in [this branch](https://github.com/mfikes/clojurescript/commits/patch-tender-2018-11-07T13).
+The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:patch-tender-2018-11-12T18) as of 2018-11-12 are in [this branch](https://github.com/mfikes/clojurescript/commits/patch-tender-2018-11-12T18).
 
-Branch build status: [![Build Status](https://travis-ci.org/mfikes/clojurescript.svg?branch=patch-tender-2018-11-07T13)](https://travis-ci.org/mfikes/clojurescript) [![Build status](https://ci.appveyor.com/api/projects/status/oggs1yydb8c2t6pa/branch/patch-tender-2018-11-07T13?svg=true)](https://ci.appveyor.com/project/mfikes/clojurescript/branch/patch-tender-2018-11-07T13)
+Branch build status: [![Build Status](https://travis-ci.org/mfikes/clojurescript.svg?branch=patch-tender-2018-11-12T18)](https://travis-ci.org/mfikes/clojurescript) [![Build status](https://ci.appveyor.com/api/projects/status/oggs1yydb8c2t6pa/branch/patch-tender-2018-11-12T18?svg=true)](https://ci.appveyor.com/project/mfikes/clojurescript/branch/patch-tender-2018-11-12T18)
 
 If using `deps.edn` you can depend on this set of patches via
 ```clojure
-org.clojure/clojurescript {:git/url "https://github.com/mfikes/clojurescript" :sha "da0975351ff6399cf60448a52a5bb00a48cdcc2e"}
+org.clojure/clojurescript {:git/url "https://github.com/mfikes/clojurescript" :sha "0920b494676c0b74942a15d700e6c5fe4bd56255"}
 ```
 
 or you can clone and build this branch for use in a `lein`- or `boot`-based project:
 
 ```
-$ git clone https://github.com/mfikes/clojurescript -b patch-tender-2018-11-07T13
+$ git clone https://github.com/mfikes/clojurescript -b patch-tender-2018-11-12T18
 $ cd clojurescript
 $ script/build
 ```
