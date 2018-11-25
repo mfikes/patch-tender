@@ -83,9 +83,9 @@
           (let [res (if push?
                       (let [res2 (shell/sh "git" "apply" "--check" "../temp.patch")]
                         (if (zero? (:exit res2))
-                          (shell/sh "git" "am" "../temp.patch")
+                          (shell/sh "git" "am" "--3way" "../temp.patch")
                           res2))
-                      (shell/sh "git" "apply" "--check" "../temp.patch"))]
+                      (shell/sh "git" "apply" "--check" "--3way" "../temp.patch"))]
             (when-not (zero? (:exit res))
               (println url "does not apply"))))))
     (when build?
