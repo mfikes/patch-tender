@@ -54,7 +54,6 @@ https://dev.clojure.org/jira/secure/attachment/17153/CLJS-2301.patch
 https://dev.clojure.org/jira/secure/attachment/17195/CLJS-2319-Fix-cljs.core-mod-handling-of-floats_INLINED.patch
 https://dev.clojure.org/jira/secure/attachment/17318/CLJS-2346.patch
 https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure.string-escape-constent-with-C.patch
-https://dev.clojure.org/jira/secure/attachment/17409/0001-CLJS-1631-Make-str-handle-js-symbols.patch
 https://dev.clojure.org/jira/secure/attachment/17503/CLJS-1458-re-matches-might-give-false-negative-2.patch
 https://dev.clojure.org/jira/secure/attachment/17504/CLJS-2402.patch
 https://dev.clojure.org/jira/secure/attachment/17513/CLJS-1676.patch
