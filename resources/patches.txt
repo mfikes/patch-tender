@@ -57,7 +57,6 @@ https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure
 https://dev.clojure.org/jira/secure/attachment/17503/CLJS-1458-re-matches-might-give-false-negative-2.patch
 https://dev.clojure.org/jira/secure/attachment/17504/CLJS-2402.patch
 https://dev.clojure.org/jira/secure/attachment/17513/CLJS-1676.patch
-https://dev.clojure.org/jira/secure/attachment/17594/CLJS-1965-failing-tests.patch
 https://dev.clojure.org/jira/secure/attachment/17666/CLJS-2479.patch
 https://dev.clojure.org/jira/secure/attachment/17833/CLJS-2604.patch
 https://dev.clojure.org/jira/secure/attachment/17890/CLJS-2342-4.patch
