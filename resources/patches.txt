@@ -45,7 +45,6 @@ https://dev.clojure.org/jira/secure/attachment/15809/CLJS-1723.patch
 https://dev.clojure.org/jira/secure/attachment/15933/CLJS-1776.patch
 https://dev.clojure.org/jira/secure/attachment/16354/CLJS-1866-updated.patch
 https://dev.clojure.org/jira/secure/attachment/16388/CLJS-1898.patch
-https://dev.clojure.org/jira/secure/attachment/16585/0001-CLJS-1593-only-return-a-var-when-we-re-looking-for-a.patch
 https://dev.clojure.org/jira/secure/attachment/16829/CLJS-2045.patch
 https://dev.clojure.org/jira/secure/attachment/16879/CLJS-2103.patch
 https://dev.clojure.org/jira/secure/attachment/16911/CLJS-2120.patch
