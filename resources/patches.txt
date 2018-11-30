@@ -1,3 +1,7 @@
+https://dev.clojure.org/jira/secure/attachment/18714/CLJS-2804.2.patch
+https://dev.clojure.org/jira/secure/attachment/18722/0008-CLJS-2386-fix-ie.patch
+https://dev.clojure.org/jira/secure/attachment/18726/CLJS-2995.patch
+https://dev.clojure.org/jira/secure/attachment/18727/CLJS-1888.2.patch
 https://dev.clojure.org/jira/secure/attachment/18627/CLJS-2968.patch
 https://dev.clojure.org/jira/secure/attachment/18707/CLJS-2802-2.patch
 https://dev.clojure.org/jira/secure/attachment/18705/CLJS-2956-2.patch
