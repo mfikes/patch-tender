@@ -1,3 +1,4 @@
+https://dev.clojure.org/jira/secure/attachment/17153/CLJS-2301.patch
 https://dev.clojure.org/jira/secure/attachment/18714/CLJS-2804.2.patch
 https://dev.clojure.org/jira/secure/attachment/18722/0008-CLJS-2386-fix-ie.patch
 https://dev.clojure.org/jira/secure/attachment/18726/CLJS-2995.patch
@@ -54,7 +55,6 @@ https://dev.clojure.org/jira/secure/attachment/16911/CLJS-2120.patch
 https://dev.clojure.org/jira/secure/attachment/16925/CLJS-2132.patch
 https://dev.clojure.org/jira/secure/attachment/16937/CLJS-2138.patch
 https://dev.clojure.org/jira/secure/attachment/17022/CLJS-2196.patch
-https://dev.clojure.org/jira/secure/attachment/17153/CLJS-2301.patch
 https://dev.clojure.org/jira/secure/attachment/17195/CLJS-2319-Fix-cljs.core-mod-handling-of-floats_INLINED.patch
 https://dev.clojure.org/jira/secure/attachment/17318/CLJS-2346.patch
 https://dev.clojure.org/jira/secure/attachment/17404/0001-CLJS-2268-Make-clojure.string-escape-constent-with-C.patch
