@@ -58,14 +58,6 @@
         test? (= "test" (first args))
         test-ndx (and test? (when-some [ndx (second args)] (js/parseInt ndx)))
         build? (or test? (= "build" (first args)))
-        patch-filter (if (or push? build?)
-                       (let [tickets (resource-lines "tickets.txt")]
-                         (fn [url]
-                           (some (fn [ticket]
-                                   (string/includes? (string/lower-case url) 
-                                     (string/lower-case ticket)))
-                             tickets)))
-                       (constantly true))
         tmpdir (io/file (string/trim (:out (shell/sh "mktemp" "-d"))))
         clojurescript-dir (io/file tmpdir "clojurescript")
         build-date (js/Date.)
@@ -75,8 +67,8 @@
       (with-sh-dir clojurescript-dir
         (shell/sh "git" "checkout" "-b" branch-name))
       (doseq [url (if test-ndx
-                    [(nth (filter patch-filter patches) test-ndx)]
-                    (filter patch-filter patches))]
+                    [(nth patches test-ndx)]
+                    patches)]
         (when test-ndx (println "Testing" url))
         (fetch-patch tmpdir url)
         (with-sh-dir clojurescript-dir
