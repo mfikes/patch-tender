@@ -13,7 +13,6 @@ https://dev.clojure.org/jira/secure/attachment/18561/CLJS-2753.patch
 https://dev.clojure.org/jira/secure/attachment/18556/cljs-2931.patch
 https://dev.clojure.org/jira/secure/attachment/18555/CLJS-2927.patch
 https://dev.clojure.org/jira/secure/attachment/18543/CLJS-2209.patch
-https://dev.clojure.org/jira/secure/attachment/18529/CLJS-2923.patch
 https://dev.clojure.org/jira/secure/attachment/18532/CLJS-2925.patch
 https://dev.clojure.org/jira/secure/attachment/18530/CLJS-2924.patch
 https://dev.clojure.org/jira/secure/attachment/18338/0001-CLJS-2853-Remove-wrongly-carried-over-docs-from-Cloj.patch
