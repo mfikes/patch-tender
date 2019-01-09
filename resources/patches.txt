@@ -4,7 +4,6 @@ https://dev.clojure.org/jira/secure/attachment/18780/CLJS-3019.patch
 https://dev.clojure.org/jira/secure/attachment/18779/CLJS-3017.patch
 https://dev.clojure.org/jira/secure/attachment/18778/CLJS-3015.patch
 https://dev.clojure.org/jira/secure/attachment/18776/CLJS-3012.patch
-https://dev.clojure.org/jira/secure/attachment/18784/CLJS-2869-9.patch
 https://dev.clojure.org/jira/secure/attachment/17153/CLJS-2301.patch
 https://dev.clojure.org/jira/secure/attachment/18714/CLJS-2804.2.patch
 https://dev.clojure.org/jira/secure/attachment/18722/0008-CLJS-2386-fix-ie.patch
