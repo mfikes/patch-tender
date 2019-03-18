@@ -1,3 +1,8 @@
+https://dev.clojure.org/jira/secure/attachment/18923/0001-CLJS-3061-Fix-docstring-for-chunked-seq.patch
+https://dev.clojure.org/jira/secure/attachment/18903/CLJS-3056.patch
+https://dev.clojure.org/jira/secure/attachment/18909/CLJS-3058.patch
+https://dev.clojure.org/jira/secure/attachment/18894/CLJS-3054.patch
+https://dev.clojure.org/jira/secure/attachment/18890/CLJS-2868-0.patch
 https://dev.clojure.org/jira/secure/attachment/18822/CLJS-3041-2.patch
 https://dev.clojure.org/jira/secure/attachment/18817/CLJS-3039-2.patch
 https://dev.clojure.org/jira/secure/attachment/18780/CLJS-3019.patch
