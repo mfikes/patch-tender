@@ -8,7 +8,7 @@ Branch build status: [![Build Status](https://travis-ci.org/mfikes/clojurescript
 
 If using `deps.edn` you can depend on this set of patches via
 ```clojure
-org.clojure/clojurescript {:git/url "https://github.com/mfikes/clojurescript" :sha "78395a87581a3dac666e6cfc4335f64cea8007db"}
+org.clojure/clojurescript {:git/url "https://github.com/mfikes/clojurescript" :sha "b57ae3a487e358edd783a92b076781cf287756bb"}
 ```
 
 or you can clone and build this branch for use in a `lein`- or `boot`-based project:
