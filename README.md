@@ -1,6 +1,7 @@
-# patch-tender
+# Patch Tender
+
 ClojureScript [JIRA](https://dev.clojure.org/jira/browse/CLJS) contains many candidate patches that have not yet been applied to master.
-The `patch-tender` project maintains and applies a curated set of these patches in a public stable GitHub branch so they can be easily soak-tested in downstream projects.
+The Patch Tender project maintains and applies a curated set of these patches in a public stable GitHub branch so they can be easily soak-tested in downstream projects.
 
 The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:patch-tender-2019-05-12T00) as of 2019-05-12 are in [this branch](https://github.com/mfikes/clojurescript/commits/patch-tender-2019-05-12T00).
 

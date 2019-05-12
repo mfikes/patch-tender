@@ -101,9 +101,9 @@
       (let [sha (string/trim (:out (with-sh-dir clojurescript-dir (shell/sh "git" "rev-parse" "HEAD"))))]
         (spit "README.md"
           (str
-            "# patch-tender" \newline
+            "# Patch Tender" \newline \newline
             "ClojureScript [JIRA](https://dev.clojure.org/jira/browse/CLJS) contains many candidate patches that have not yet been applied to master." \newline
-            "The `patch-tender` project maintains and applies a curated set of these patches in a public stable GitHub branch so they can be easily soak-tested in downstream projects." \newline
+            "The Patch Tender project maintains and applies a curated set of these patches in a public stable GitHub branch so they can be easily soak-tested in downstream projects." \newline
             \newline
             "The latest set of [applied patches](https://github.com/clojure/clojurescript/compare/master...mfikes:" branch-name ") as of " (date-format build-date) " are in [this branch](https://github.com/mfikes/clojurescript/commits/" branch-name ")." \newline
             \newline
