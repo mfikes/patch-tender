@@ -58,7 +58,7 @@
         test? (= "test" (first args))
         test-ndx (and test? (when-some [ndx (second args)] (js/parseInt ndx)))
         build? (or test? (= "build" (first args)))
-        tmpdir (io/file (string/trim (:out (shell/sh "mktemp" "-d"))))
+        tmpdir (io/temp-directory)
         clojurescript-dir (io/file tmpdir "clojurescript")
         build-date (js/Date.)
         branch-name (inst->branch-name build-date)]
