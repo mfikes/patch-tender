@@ -23,10 +23,10 @@
 (defn fetch-patch [tmpdir url]
   (let [cache-dir (cache-dir)]
     (let [cache-file (io/file cache-dir (str (Math/abs (hash url))))]
-      (when-not (io/file-attributes cache-file)
+      (when-not (io/exists? cache-file)
         (when-not (io/make-parents cache-file)
           (throw (ex-info "failed to make cache dir" {:dir cache-dir})))
-        (spit cache-file (slurp url)))
+        (io/copy (io/reader url) cache-file))
       (io/copy cache-file (io/file tmpdir "temp.patch")))))
 
 (def normalize (fn [n len]
