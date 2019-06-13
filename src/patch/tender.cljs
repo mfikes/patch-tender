@@ -2,6 +2,7 @@
   (:require
    [clojure.string :as string]
    [planck.core :refer [spit slurp line-seq]]
+   [planck.environ :refer [env]]
    [planck.io :as io]
    [planck.shell :as shell :refer [with-sh-dir]]))
 
@@ -10,15 +11,8 @@
 
 (def patches (resource-lines "patches.txt"))
 
-(defn get-env []
-  (into {}
-    (map (fn [line]
-           (string/split line #"=" 2))
-      (-> (:out (shell/sh "env"))
-        (string/split #"\n")))))
-
 (defn cache-dir []
-  (io/file (get (get-env) "HOME") ".patch-tender" "patches"))
+  (io/file (:home env) ".patch-tender" "patches"))
 
 (defn fetch-patch [tmpdir url]
   (let [cache-dir (cache-dir)]
