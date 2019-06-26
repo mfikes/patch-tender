@@ -16,7 +16,7 @@ https://clojure.atlassian.net/secure/attachment/18634/CLJS-3091.patch
 https://clojure.atlassian.net/secure/attachment/18633/CLJS-3090.patch
 https://clojure.atlassian.net/secure/attachment/16119/CLJS-3074-2.patch
 https://clojure.atlassian.net/secure/attachment/18649/CLJS-3078-2.patch
-https://clojure.atlassian.net/secure/attachment/16118/CLJS-3075.patch
+https://clojure.atlassian.net/secure/attachment/18691/CLJS-3075-2.patch
 https://clojure.atlassian.net/secure/attachment/16299/0001-CLJS-1908-Wrap-vars-in-throw-message-with-pr-str-2.patch
 https://clojure.atlassian.net/secure/attachment/16151/CLJS-3041-2.patch
 https://clojure.atlassian.net/secure/attachment/16153/CLJS-3039-2.patch
