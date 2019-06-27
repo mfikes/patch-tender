@@ -1,9 +1,10 @@
+https://clojure.atlassian.net/secure/attachment/18698/CLJS-3079.patch
 https://clojure.atlassian.net/secure/attachment/18677/CLJS-3119.patch
 https://clojure.atlassian.net/secure/attachment/18694/CLJS-3098.patch
 https://clojure.atlassian.net/secure/attachment/18674/CLJS-2880-2.patch
 https://clojure.atlassian.net/secure/attachment/18670/CLJS-3115.patch
 https://clojure.atlassian.net/secure/attachment/18663/CLJS-3107.patch
-https://clojure.atlassian.net/secure/attachment/18695/CLJS-3070-4.patch
+https://clojure.atlassian.net/secure/attachment/18699/CLJS-3070-5.patch
 https://clojure.atlassian.net/secure/attachment/18662/CLJS-2155-2.patch
 https://clojure.atlassian.net/secure/attachment/18671/CLJS-3118.patch
 https://clojure.atlassian.net/secure/attachment/18672/CLJS-3100-3.patch
