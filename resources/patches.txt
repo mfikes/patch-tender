@@ -1,5 +1,5 @@
+https://clojure.atlassian.net/secure/attachment/18715/CLJS-3134-1.patch
 https://clojure.atlassian.net/secure/attachment/18713/CLJS-3133.patch
-https://clojure.atlassian.net/secure/attachment/18714/CLJS-3134-0.patch
 https://clojure.atlassian.net/secure/attachment/18712/CLJS-3132.patch
 https://clojure.atlassian.net/secure/attachment/18711/CLJS-3131.patch
 https://clojure.atlassian.net/secure/attachment/18667/CLJS-3110.patch
