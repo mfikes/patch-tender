@@ -50,7 +50,6 @@
 (defn -main [& args]
   (let [push? (= "push" (first args))
         test? (= "test" (first args))
-        test-ndx (and test? (when-some [ndx (second args)] (js/parseInt ndx)))
         build? (or test? (= "build" (first args)))
         tmpdir (io/temp-directory)
         clojurescript-dir (io/file tmpdir "clojurescript")
@@ -60,10 +59,7 @@
       (shell/sh "git" "clone" "https://github.com/clojure/clojurescript")
       (with-sh-dir clojurescript-dir
         (shell/sh "git" "checkout" "-b" branch-name))
-      (doseq [url (if test-ndx
-                    [(nth patches test-ndx)]
-                    patches)]
-        (when test-ndx (println "Testing" url))
+      (doseq [url patches]
         (fetch-patch tmpdir url)
         (with-sh-dir clojurescript-dir
           (let [res (if push?
