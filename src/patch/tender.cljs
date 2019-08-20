@@ -59,7 +59,7 @@
       (shell/sh "git" "clone" "https://github.com/clojure/clojurescript")
       (with-sh-dir clojurescript-dir
         (shell/sh "git" "checkout" "-b" branch-name))
-      (doseq [url patches]
+      (doseq [url (shuffle patches)]
         (fetch-patch tmpdir url)
         (with-sh-dir clojurescript-dir
           (let [res (if push?
