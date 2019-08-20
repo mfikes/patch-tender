@@ -1,3 +1,4 @@
+https://clojure.atlassian.net/secure/attachment/18789/CLJS-3150.patch
 https://clojure.atlassian.net/secure/attachment/18696/CLJS-3114.patch
 https://clojure.atlassian.net/secure/attachment/18727/CLJS-3102.patch
 https://clojure.atlassian.net/secure/attachment/18720/CLJS-3086.patch
