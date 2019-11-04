@@ -7,7 +7,6 @@ https://clojure.atlassian.net/secure/attachment/18781/CLJS-2823.patch
 https://clojure.atlassian.net/secure/attachment/18779/CLJS-2874.patch
 https://clojure.atlassian.net/secure/attachment/18745/CLJS-3077-3.patch
 https://clojure.atlassian.net/secure/attachment/18743/CLJS-3142.patch
-https://clojure.atlassian.net/secure/attachment/18742/CLJS-3111-3.patch
 https://clojure.atlassian.net/secure/attachment/18736/CLJS-3136.patch
 https://clojure.atlassian.net/secure/attachment/18737/CLJS-3103-3.patch
 https://clojure.atlassian.net/secure/attachment/18731/CLJS-3106.patch
@@ -44,7 +43,7 @@ https://clojure.atlassian.net/secure/attachment/16153/CLJS-3039-2.patch
 https://clojure.atlassian.net/secure/attachment/18673/CLJS-3019-2.patch
 https://clojure.atlassian.net/secure/attachment/16363/CLJS-3012.patch
 https://clojure.atlassian.net/secure/attachment/17624/CLJS-2804.2.patch
-https://clojure.atlassian.net/secure/attachment/18437/CLJS-2802-2.patch
+https://clojure.atlassian.net/secure/attachment/18839/CLJS-2802-3.patch
 https://clojure.atlassian.net/secure/attachment/16386/CLJS-2961.patch
 https://clojure.atlassian.net/secure/attachment/16180/cljs-2931.patch
 https://clojure.atlassian.net/secure/attachment/16308/CLJS-2927-2.patch
