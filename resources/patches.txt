@@ -62,7 +62,6 @@ https://clojure.atlassian.net/secure/attachment/16546/CLJS-2527.3.patch
 https://clojure.atlassian.net/secure/attachment/16113/CLJS-2467.patch
 https://clojure.atlassian.net/secure/attachment/17349/CLJS-2686.patch
 https://clojure.atlassian.net/secure/attachment/17349/CLJS-2686.patch
-https://clojure.atlassian.net/secure/attachment/16430/CLJS-1722.patch
 https://clojure.atlassian.net/secure/attachment/17244/CLJS-1723.patch
 https://clojure.atlassian.net/secure/attachment/17780/CLJS-1776.patch
 https://clojure.atlassian.net/secure/attachment/16393/CLJS-1866-updated.patch
