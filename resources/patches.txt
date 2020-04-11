@@ -52,8 +52,8 @@ https://clojure.atlassian.net/secure/attachment/16225/0001-CLJS-2910-Docstring-d
 https://clojure.atlassian.net/secure/attachment/16519/CLJS-2735-3.patch
 https://clojure.atlassian.net/secure/attachment/16239/CLJS-2916.patch
 https://clojure.atlassian.net/secure/attachment/18929/CLJS-2908-2.patch
-https://clojure.atlassian.net/secure/attachment/16255/CLJS-2898-2.patch
 https://clojure.atlassian.net/secure/attachment/16306/CLJS-2885.patch
+https://clojure.atlassian.net/secure/attachment/18944/CLJS-2898-3.patch
 https://clojure.atlassian.net/secure/attachment/18674/CLJS-2880-2.patch
 https://clojure.atlassian.net/secure/attachment/17438/CLJS-2813.patch
 https://clojure.atlassian.net/secure/attachment/16546/CLJS-2527.3.patch
